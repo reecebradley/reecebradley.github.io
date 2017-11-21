@@ -30,7 +30,9 @@ markdown: kramdown
 theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
-paginate:         5
+  - jekyll-gist
+  - jekyll-paginate
+paginate: 5
 sidebar_home_link:  true
 
 # Exclude from processing.
