@@ -27,11 +27,11 @@ disqus:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hydeout
-# plugins:
-#   - jekyll-feed
-#   - jekyll-gist
-#   - jekyll-paginate
+# theme: jekyll-theme-hydeout
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 paginate: 5
 sidebar_home_link:  true
 
