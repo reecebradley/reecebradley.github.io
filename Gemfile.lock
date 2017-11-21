@@ -223,7 +223,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-gist (~> 1.4)
   jekyll-paginate (~> 1.1)
-  jekyll-theme-hydeout (~> 3.5)
+  jekyll-theme-hydeout
   tzinfo-data
 
 BUNDLED WITH
