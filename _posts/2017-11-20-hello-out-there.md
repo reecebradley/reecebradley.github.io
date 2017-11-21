@@ -1,41 +1,21 @@
 ---
 layout: post
-title: "Hello Out There"
+title: "Hello out there..."
 categories:
   - Author Note
 tags:
   - author
-last_modified_at: 2017-11-20T18:18:52-05:00
+last_modified_at: 2017-11-21T10:18:52-05:00
 ---
 ## Is this thing on?
 
-I'm playing around, so this page may just get deleted.
+Greetings citizens of planet Earth! I'm attempting to share thoughts about my latest adventures in technology - currently Docker.
+I invite you to come along with me on my Docker journey and we'll see what kinds of things we can put in containers, especially in the world of Windows.
 
-```csharp
-// Example
-var c = "sharp";
-```
+> "It's a dangerous business, going out your door. You step onto the road, and if you don't keep your feet, there's no telling where you might be swept off to."
+>
+> ~ Bilbo
 
-```typescript
-let foo = "bar";
-```
+My blog is defintely a work in progress. It is a new thing using Jekyll themes and GitHub Pages. We'll see how well it'll work out for me and hopefully I'll hear from you!
 
-```js
-function wat(){
-  alert('definitely');
-}
-```
-
-```sql
-SELECT * FROM [dbo].[Blog] b
-```
-
-```powershell
-docker run --rm --name "test-docker" microsoft/dotnet-samples:dotnetapp
-```
-
-```sh
-git status
-```
-
-This concludes the tests for today.
+Keep on Coding!
