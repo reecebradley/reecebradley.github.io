@@ -1,0 +1,7 @@
+deploy:
+  provider: azure_web_apps
+  on:
+    branch: master
+  # username: "Your Azure Deployment Username" # AZURE_WA_USERNAME
+  # password: "Your Azure Deployment Password" # AZURE_WA_PASSWORD
+  # site: "Name of your Azure Web App" # AZURE_WA_SITE
