@@ -3,7 +3,9 @@ rvm:
 - 2.3
 
 install: gem install jekyll html-proofer jekyll-sitemap
-script: scripts/build.sh
+script:
+  - chmod +x scripts/build.sh
+  - scripts/build.sh
 
 # branch whitelist
 branches:
@@ -20,6 +22,8 @@ env:
 deploy:
   skip_cleanup: true
   provider: script
-  script: scripts/deploy.sh
+  script:
+    - chmod +x scripts/deploy.sh
+    - scripts/deploy.sh
   on:
     branch: master
