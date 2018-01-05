@@ -9,6 +9,7 @@ install:
   - bundle install
 script:
   - chmod +x scripts/build.sh
+  - chmod +x scripts/deploy.sh
   - scripts/build.sh
 
 branches:
@@ -22,9 +23,6 @@ env:
 deploy:
   skip_cleanup: true
   provider: script
-  script:
-    # - echo "deploy starting ..."
-    # - chmod +x scripts/deploy.sh
-    - scripts/deploy.sh
+  script: scripts/deploy.sh
   on:
     branch: master
