@@ -1,6 +1,8 @@
 #!/bin/bash
+  echo -e "\x1B[31m **** start deploy script ... \x1B[0m"
 
-if [[ $TRAVIS_BRANCH == 'gh-pages' ]] ; then
+if [[ $TRAVIS_BRANCH == 'master' ]] ; then
+  echo -e "\x1B[31m **** git \x1B[0m"
   cd _site
   git init
 
@@ -14,6 +16,6 @@ if [[ $TRAVIS_BRANCH == 'gh-pages' ]] ; then
   # /dev/null to hide any sensitive credential data that might otherwise be exposed.
   git push --force --quiet "https://${git_user}:${git_password}@${git_target}" master:master > /dev/null 2>&1
 else
-  echo 'Invalid branch. You can only deploy from master.'
+  echo -e "\x1B[31m **** Invalid branch. You can only deploy from master \x1B[0m"
   exit 1
 fi
