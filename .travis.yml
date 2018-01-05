@@ -23,7 +23,7 @@ deploy:
   skip_cleanup: true
   provider: script
   script:
-    - echo 'deploy starting ...'
+    - echo "deploy starting ..."
     - chmod +x scripts/deploy.sh
     - scripts/deploy.sh
   on:
