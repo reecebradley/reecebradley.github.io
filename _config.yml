@@ -44,8 +44,9 @@ plugins:
 # to override the default setting.
 exclude:
   - scripts
-#   - Gemfile
-#   - Gemfile.lock
+  - Gemfile
+  - Gemfile.*
+  - README.md
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
