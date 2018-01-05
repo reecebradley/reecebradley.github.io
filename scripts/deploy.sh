@@ -1,6 +1,5 @@
 #!/bin/bash
 echo -e "\x1B[31m **** $ ls \x1B[0m"
-echo "GO!"
 ls
 
 echo -e "\x1B[31m **** start deploy script ... \x1B[0m"
