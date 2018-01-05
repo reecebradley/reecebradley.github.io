@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Hello out there..."
+title: "First Post"
 tags:
   - note
 last_modified_at: 2017-11-21T10:18:52-05:00
 ---
-## First Post
+## It's a dangerous business...
 
 Greetings citizens of planet Earth! I'm attempting to share thoughts about my latest adventures in technology - currently Docker.
 I invite you to come along with me on my Docker journey and we'll see what kinds of things we can put in containers, especially in the world of Windows.
