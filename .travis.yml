@@ -20,7 +20,6 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 deploy:
-  skip_cleanup: true
   provider: script
   script:
     - chmod +x scripts/deploy.sh
