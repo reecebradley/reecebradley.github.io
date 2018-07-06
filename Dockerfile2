@@ -1,0 +1,8 @@
+FROM jekyll/builder as build
+#WORKDIR /srv/jekyll
+COPY . /srv/jekyll
+RUN ls
+# RUN bundle install
+# RUN bundle exec jekyll build --config _config.yml
+
+ENTRYPOINT [ "jekyll", "serve" ]
